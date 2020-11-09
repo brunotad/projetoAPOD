@@ -1,0 +1,16 @@
+h1 {
+
+    display: flex;
+    justify-content: center;
+    font-family: 'Trispace', sans-serif;
+	font-size: 20pt;
+	color: #FFFFFF;
+    margin: 20px auto;
+
+}
+
+body {
+
+	background-image: url('../img/skyPhenomenon.jpg');
+
+}
