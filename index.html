@@ -5,22 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto APOD</title>
     <link rel="stylesheet" type="text/css" href="./css/reset.css">
-    <link rel="stylesheet" type="text/css" href="./css/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
 <body>
 
-    <div class="corpo">
+    <div class="cabecalho">
         <header>
-            <h1>Divisor</h1>
+            <h1>Projeto APOD</h1>
         </header>        
     </div>
 
-    <main>
-        <div class="container">
+    <div class="selecaoData">
+        <input id="date" type="date">
+        <button id="buttonCliqueAqui">Clique aqui</button>
+    </div>
 
-        </div>
-    </main>
+    <div class="imagemApod" id="imagem">
 
-    <script type="text/javascript" src="./js/script.js"></script>
+    </div>
+    
+    <script defer type="text/javascript" src="./js/model.js"></script>
+    <script defer type="text/javascript" src="./js/view.js"></script>
+    <script defer type="text/javascript" src="./js/controller.js"></script>
+    <script defer type="text/javascript" src="./js/main.js"></script>
 </body>
 </html>
