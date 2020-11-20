@@ -8,7 +8,7 @@ class Controller {
 
         console.log(data)
 
-        requestApod.open('GET',`https://api.nasa.gov/planetary/apod?api_key=PVopjkYuVhBKkOwWb7GmVKNeTLDJZyZ0rarIBxSP&date=${2020-11-10}`, false)
+        requestApod.open('GET',`https://api.nasa.gov/planetary/apod?api_key=PVopjkYuVhBKkOwWb7GmVKNeTLDJZyZ0rarIBxSP&end_date=2020-11-10`, false)
 
         requestApod.addEventListener('load', function(){
 
